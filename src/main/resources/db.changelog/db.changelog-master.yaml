@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/user_V0010__add_column_avatar_url_to_table_user.sql
