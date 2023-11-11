@@ -1,2 +1,9 @@
-package avatar_dicebear.repository;public interface UserRepository {
+package avatar_dicebear.repository;
+
+import avatar_dicebear.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
 }
